@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(./3.jpg);
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+}
+.navbar{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+ul li{
+    margin-top: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    font-family: cursive;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border: 2px transparent;
+    transition: 0.5s ease;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+
+.logo{
+    padding-top: 10px;
+    color: white;
+    font-size: larger;
+    display: inline-block;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.aboutsection{
+    width: 100%;
+    min-height: 150vh;
+    /* background-color: #ddd; */
+}
+
+.aboutcontainer{
+    width: 90%;
+    display: block;
+    margin: auto;
+    padding-top: 100px ;
+}
+
+.aboutcontent{
+    color: white;
+    width: 100%;
+    background-color: black;
+}
+
+
+.image{
+    float:right;
+    margin-top: 40px;
+    width: 35%;
+    /* background-color: pink; */
+}
+
+.image .im1{
+    width: 87%;
+    height: auto;
+}
+.image .im2{
+    width: 43%;
+    height: auto;
+}
+.image .im3{
+    width: 43%;
+    height: auto;
+}
+
+
+.aboutcontent .title{
+    font-size: 35px;
+    font-family: 'Kaushan Script', cursive;
+    float: left;
+    margin-right: 0px;
+    /* background-color: aqua; */
+}
+
+
+
+.aboutcontent .content{
+    font-family: cursive;
+    float: left;
+    width: 60%;
+    font-size: 18px;
+    margin-right: 0px;
+    /* background-color: brown; */
+}
+
+.aboutcontent .button{
+    font-family: cursive;
+    float: left;
+    width: 40%;
+    /* background-color: blue; */
+    margin-top: 30px;
+    margin-left: 105px;
+    margin-right: 0px;
+}
+
+.aboutcontent .button .btn{
+    border: 1px solid white;
+    border-style:double;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: larger;
+    margin: 3px;
+    transition: 0.6s ease;
+}
+
+.aboutcontent .button .btn:hover{
+    background-color: white;
+    color: black;
+}
+
+.aboutcontent .social{
+    float: left;
+    /* background-color: green; */
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 145px;
+    margin-right: 0px;
+}
+
+.aboutcontent .social i{
+    color: white;
+    font-size: 30px;
+    padding: 0px 10px;
+    transition: 0.6s ease;
+}
+
+.aboutcontent .social i:hover{
+    color: black;
+}
+
+footer{
+    background-color: #111;
+}
+
+.footercontainer{
+    width: 100%;
+    padding: 30px 20px 20px;
+}
+
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialicons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialicons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialicons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footernav{
+    margin: 20px 0;
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footernav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footernav ul li a:hover{
+    opacity: 1;
+    color: black;
+}
+
+.footerbottom{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.footerbottom p{
+    color: white;
+}
+
+
+
+

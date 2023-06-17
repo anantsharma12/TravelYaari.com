@@ -1,0 +1,510 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)) , url(./3.jpg);
+    height: 100vh;
+    background-size:cover;
+    background-position: center;
+}
+.navbar{
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+ul li{
+    margin-top: 10px;
+    margin-right: 10px;
+    display: inline-block;
+    font-family: cursive;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border: 2px transparent;
+    transition: 0.5s ease;
+}
+
+ul li a:hover {
+    background-color: white;
+    color: black;
+}
+
+ul li.active a{
+    background-color: white;
+    color: black;
+}
+
+.logo{
+    padding-top: 10px;
+    color: white;
+    font-size: larger;
+    display: inline-block;
+    font-family: 'Great Vibes', cursive;
+    font-size: 2rem;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+
+.placescontainer{
+    width: 100%;
+    height: 90vh;
+    display:block;
+    /* background-color: pink; */
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.heading{
+    width:  30%;
+    text-align: center;
+    color: white;
+    /* background-color: blue; */
+    padding-top: 80px;
+    float: left;
+}
+
+.heading h1{
+    font-size: 40px;
+    font-family: 'Kaushan Script', cursive;
+}
+
+.heading p{
+    font-family: cursive;
+    font-size: large;
+}
+.heading a{
+    border: 1px solid white;
+    border-style:double;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-family: cursive;
+    font-size: larger;
+    margin: 3px;
+    transition: 0.6s ease;
+}
+.heading a:hover{
+    background-color: white;
+    color: black;
+}
+
+.tours1{
+    width: 60%;
+    display: flex;
+    float: right;
+    /* background-color: aqua;  */
+}
+
+
+
+.tours2{
+    width: 60%;
+    margin-top: 30px;
+    display: flex;
+    float: right;
+    /* background-color: aqua;  */
+    
+}
+
+.kerala{
+    
+    border-radius: 12px;
+    padding: 20px;
+    transition: 0.6s ease;
+    background-image: url(./ker1.jpg) ;
+    background-size: cover;
+    margin: 20px;
+    width: 240px;
+    height: 180px;
+    position: relative;
+}
+
+.kerala:hover{
+    transform: scale(1.1);
+    opacity: 1;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./ker1.jpg);
+}
+
+.kerala h2{
+    position: absolute;
+    top: 70%;
+    left: 55%;
+    color: white;
+}
+
+.kerala p{
+    position: absolute;
+    top: 85%;
+    left: 75%;
+    color: white;
+}
+
+.kerala a{
+    position: absolute;
+    text-decoration: none;
+    top: 37%;
+    left: 22%;
+    font-size: small;
+    font-family: cursive;
+    opacity: 0.3;
+    border: 1px ;
+    border-style:double;
+    color: white;
+    padding: 5px;
+    transition: 0.6s ease;
+}
+
+.kerala a:hover{
+    opacity: 2;
+    /* color: black; */
+}
+
+.sydney{
+    
+    border-radius: 12px;
+    padding: 20px;
+    transition: 0.6s ease;
+    background-image: url(./syd.jpg) ;
+    background-size: cover;
+    margin: 20px;
+    width: 240px;
+    height: 180px;
+    position: relative;
+}
+
+.sydney:hover{
+    transform: scale(1.1);
+    opacity: 1;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./syd.jpg);
+}
+
+.sydney h2{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    color: white;
+}
+
+.sydney p{
+    position: absolute;
+    top: 85%;
+    left: 70%;
+    color: white;
+}
+
+.sydney a{
+    position: absolute;
+    text-decoration: none;
+    top: 37%;
+    left: 22%;
+    font-size: small;
+    font-family: cursive;
+    opacity: 0.3;
+    border: 1px ;
+    border-style:double;
+    color: white;
+    padding: 5px;
+    transition: 0.6s ease;
+}
+
+.sydney a:hover{
+    opacity: 5;
+    /* color: black;
+    border-color: solid black; */
+}
+
+
+.tokyo{
+    
+    border-radius: 12px;
+    padding: 20px;
+    transition: 0.6s ease;
+    background-image: url(./tok.jpg) ;
+    background-size: cover;
+    margin: 20px;
+    width: 240px;
+    height: 180px;
+    position: relative;
+}
+
+.tokyo:hover{
+    transform: scale(1.1);
+    opacity: 1;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./tok.jpg);
+}
+
+.tokyo h2{
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    color: white;
+}
+
+.tokyo p{
+    position: absolute;
+    top: 85%;
+    left: 75%;
+    color: white;
+}
+
+.tokyo a{
+    position: absolute;
+    text-decoration: none;
+    top: 37%;
+    left: 22%;
+    font-size: small;
+    font-family: cursive;
+    opacity: 0.3;
+    border: 1px ;
+    border-style:double;
+    color: white;
+    padding: 5px;
+    transition: 0.6s ease;
+}
+
+.tokyo a:hover{
+    opacity: 1;
+    
+}
+
+.newyork{
+    
+    border-radius: 12px;
+    padding: 20px;
+    transition: 0.6s ease;
+    background-image: url(./new.jpg) ;
+    background-size: cover;
+    margin: 20px;
+    width: 240px;
+    height: 180px;
+    position: relative;
+}
+
+.newyork:hover{
+    transform: scale(1.1);
+    opacity: 1;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./new.jpg);
+}
+
+.newyork h2{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    color: white;
+}
+
+.newyork p{
+    position: absolute;
+    top: 85%;
+    left: 76%;
+    color: white;
+}
+
+.newyork a{
+    position: absolute;
+    text-decoration: none;
+    top: 37%;
+    left: 22%;
+    font-size: small;
+    font-family: cursive;
+    opacity: 0.3;
+    border: 1px solid white;
+    border-style:double;
+    color: white;
+    padding: 5px;
+    transition: 0.6s ease;
+}
+
+.newyork a:hover{
+    opacity: 1;
+}
+
+.riodejan{
+    
+    border-radius: 12px;
+    padding: 20px;
+    transition: 0.6s ease;
+    background-image: url(./rio.jpg) ;
+    background-size: cover;
+    margin: 20px;
+    width: 240px;
+    height: 180px;
+    position: relative;
+}
+
+.riodejan:hover{
+    transform: scale(1.1);
+    opacity: 1;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./rio.jpg);
+}
+
+.riodejan h2{
+    position: absolute;
+    top: 70%;
+    left: 16%;
+    color: white;
+}
+
+.riodejan p{
+    position: absolute;
+    top: 85%;
+    left: 75%;
+    color: white;
+}
+
+.riodejan a{
+    position: absolute;
+    text-decoration: none;
+    top: 37%;
+    left: 22%;
+    font-size: small;
+    font-family: cursive;
+    opacity: 0.3;
+    border: 1px solid white;
+    border-style:double;
+    color: white;
+    padding: 5px;
+    transition: 0.6s ease;
+}
+
+.riodejan a:hover{
+    opacity: 1;
+}
+
+.lasvegas{
+    
+    border-radius: 12px;
+    padding: 20px;
+    transition: 0.6s ease;
+    background-image: url(./vegas1.jpg) ;
+    background-size: cover;
+    margin: 20px;
+    width: 240px;
+    height: 180px;
+    position: relative;
+}
+
+.lasvegas:hover{
+    transform: scale(1.1);
+    opacity: 1;
+    background-image:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(./vegas1.jpg);
+}
+
+.lasvegas h2{
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    color: white;
+}
+
+.lasvegas p{
+    position: absolute;
+    top: 85%;
+    left: 75%;
+    color: white;
+}
+
+.lasvegas a{
+    position: absolute;
+    text-decoration: none;
+    top: 37%;
+    left: 22%;
+    font-size: small;
+    font-family: cursive;
+    opacity: 0.3;
+    border: 1px solid white;
+    border-style:double;
+    color: white;
+    padding: 5px;
+    transition: 0.6s ease;
+}
+
+.lasvegas a:hover{
+    opacity: 1;
+}
+
+
+footer{
+    background-color: #111;
+}
+
+.footercontainer{
+    width: 100%;
+    padding: 30px 20px 20px;
+}
+
+.socialicons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialicons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.socialicons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialicons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialicons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+
+.footernav{
+    margin: 20px 0;
+}
+
+.footernav ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footernav ul li a{
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+}
+
+.footernav ul li a:hover{
+    opacity: 1;
+    color: black;
+}
+
+.footerbottom{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+}
+
+.footerbottom p{
+    color: white;
+}
+
+
+
+
